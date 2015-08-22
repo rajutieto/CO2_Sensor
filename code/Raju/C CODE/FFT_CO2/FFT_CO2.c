@@ -24,27 +24,6 @@ real_T fft_co2(const real_T X[64])
   boolean_T exitg1;
   real_T y;
 
-  /*  newFFT: - returns the discrete Fourier transform (DFT) of vector X, */
-  /*  computed with a fast Fourier transform (FFT) algorithm. If X is a matrix, */
-  /*  newFFT returns the Fourier transform of each column of the matrix */
-  /*  Syntax: Y = newFFT(X,N) */
-  /*  */
-  /*  Inputs: */
-  /*     X          - Time domain input signal */
-  /*     N          - Number of FFT point */
-  /*  */
-  /*  Outputs: */
-  /*     Y      - Frequency domain N point DFT */
-  /*  */
-  /*  Other m-files required:  */
-  /*    Subfunctions:  */
-  /*    Upperfuncions:  */
-  /*    MAT-files required:  */
-  /*  */
-  /* ------------- BEGIN CODE -------------- */
-  /*  If the length of X is greater than n, the sequence X is truncated. */
-  /*  j   = sqrt(-1); */
-  /* DFT Matrix */
   for (ix = 0; ix < 64; ix++) {
     dv0[ix] = 0.0;
     for (i0 = 0; i0 < 64; i0++) {
