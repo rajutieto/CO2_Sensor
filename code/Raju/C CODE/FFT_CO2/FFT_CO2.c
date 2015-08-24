@@ -3,7 +3,7 @@
  *
  * Code generation for function 'fft_co2'
  *
- * C source code generated on: Sun Aug 23 02:15:12 2015
+ * C source code generated on: Mon Aug 24 08:57:06 2015
  *
  */
 
@@ -24,6 +24,19 @@ real_T fft_co2(const real_T X[64])
   boolean_T exitg1;
   real_T y;
 
+  /*  fft_co2: - returns the noise amount in Decibel contained in time domain input signal. */
+  /*  Syntax: snrdB= fft_co2(X) */
+  /*  */
+  /*  Inputs: */
+  /*     X          - Time domain input signal */
+  /*  */
+  /*  Outputs: */
+  /*     snrdB      - Noise amount in Decibel */
+  /*  */
+  /* ------------- BEGIN CODE -------------- */
+  /*  If the length of X is greater than n, the sequence X is truncated. */
+  /*  j   = sqrt(-1); */
+  /* DFT Matrix */
   for (ix = 0; ix < 64; ix++) {
     dv0[ix] = 0.0;
     for (i0 = 0; i0 < 64; i0++) {

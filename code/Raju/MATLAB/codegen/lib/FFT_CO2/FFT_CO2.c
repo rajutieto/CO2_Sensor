@@ -3,7 +3,7 @@
  *
  * Code generation for function 'fft_co2'
  *
- * C source code generated on: Sun Aug 23 02:15:12 2015
+ * C source code generated on: Mon Aug 24 08:57:06 2015
  *
  */
 
@@ -24,22 +24,14 @@ real_T fft_co2(const real_T X[64])
   boolean_T exitg1;
   real_T y;
 
-  /*  newFFT: - returns the discrete Fourier transform (DFT) of vector X, */
-  /*  computed with a fast Fourier transform (FFT) algorithm. If X is a matrix, */
-  /*  newFFT returns the Fourier transform of each column of the matrix */
-  /*  Syntax: Y = newFFT(X,N) */
+  /*  fft_co2: - returns the noise amount in Decibel contained in time domain input signal. */
+  /*  Syntax: snrdB= fft_co2(X) */
   /*  */
   /*  Inputs: */
   /*     X          - Time domain input signal */
-  /*     N          - Number of FFT point */
   /*  */
   /*  Outputs: */
-  /*     Y      - Frequency domain N point DFT */
-  /*  */
-  /*  Other m-files required:  */
-  /*    Subfunctions:  */
-  /*    Upperfuncions:  */
-  /*    MAT-files required:  */
+  /*     snrdB      - Noise amount in Decibel */
   /*  */
   /* ------------- BEGIN CODE -------------- */
   /*  If the length of X is greater than n, the sequence X is truncated. */

@@ -1,5 +1,7 @@
  function snrdB = fft_co2(X)
-% fft_co2: - returns the noise amount in Decibel contained in time domain input signal.
+% newFFT: - returns the discrete Fourier transform (DFT) of vector X,
+% computed with a fast Fourier transform (FFT) algorithm. If X is a matrix,
+% newFFT returns the Fourier transform of each column of the matrix
 
 % Syntax: snrdB= fft_co2(X)
 %
@@ -8,6 +10,11 @@
 %
 % Outputs:
 %    snrdB      - Noise amount in Decibel
+%
+% Other m-files required: 
+%   Subfunctions: 
+%   Upperfuncions: 
+%   MAT-files required: 
 %
 
 %------------- BEGIN CODE --------------
