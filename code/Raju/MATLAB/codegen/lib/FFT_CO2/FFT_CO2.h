@@ -3,7 +3,7 @@
  *
  * Code generation for function 'fft_co2'
  *
- * C source code generated on: Mon Aug 24 08:57:06 2015
+ * C source code generated on: Sat Sep 05 23:24:34 2015
  *
  */
 
@@ -19,6 +19,6 @@
 #include "fft_co2_types.h"
 
 /* Function Declarations */
-extern real_T fft_co2(const real_T X[64]);
+extern real_T fft_co2(const real_T x[64]);
 #endif
 /* End of code generation (fft_co2.h) */

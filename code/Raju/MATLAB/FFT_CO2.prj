@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deployment-project plugin="plugin.matlabcoder" plugin-version="R2013a">
-  <configuration target="target.matlab.coder" target-name="MEX, C, and C++ Code Generation" name="FFT_CO2" location="C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB" file="C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB\FFT_CO2.prj" build-checksum="2489874487">
+  <configuration target="target.matlab.coder" target-name="MEX, C, and C++ Code Generation" name="FFT_CO2" location="C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB" file="C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB\FFT_CO2.prj" build-checksum="3514108942">
     <profile key="profile.mex">
       <param.MergeInstrumentationResults>false</param.MergeInstrumentationResults>
       <param.BuiltInstrumentedMex>false</param.BuiltInstrumentedMex>
@@ -391,7 +391,7 @@
     <fileset.entrypoints>
       <file value="${PROJECT_ROOT}\fft_co2.m" custom-data-expanded="false">
         <Inputs fileName="fft_co2.m" functionName="fft_co2">
-          <Input Name="X">
+          <Input Name="x">
             <Class>double</Class>
             <UserDefined>false</UserDefined>
             <Size>64 x 1</Size>
